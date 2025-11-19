@@ -12,7 +12,7 @@ const Header = ({ isMain = false }) => {
       <header className={`header ${isMain ? 'header--main' : 'header--inner'}`}>
         <div className="header__container">
           <div className="header__logo">
-            <img src="/src/assets/images/logo.svg" alt="AstroMap Logo" />
+            <img src="/images/logo.svg" alt="AstroMap Logo" />
           </div>
 
           {isMain ? (
@@ -33,7 +33,7 @@ const Header = ({ isMain = false }) => {
             </>
           ) : (
             <button className="header__burger" onClick={toggleBurger}>
-              <img src="/src/assets/images/burger-menu.svg" alt="Меню" />
+              <img src="/images/burger-menu.svg" alt="Меню" />
             </button>
           )}
         </div>
@@ -51,13 +51,13 @@ const Header = ({ isMain = false }) => {
         </div>
 
         <div className="burger-menu__avatar">
-          <img src="/src/assets/images/avatar-profile.png" alt="Avatar" />
+          <img src="/images/avatar-profile.png" alt="Avatar" />
         </div>
 
         <button className="burger-menu__profile-btn">Личный кабинет</button>
 
         <div className="burger-menu__star">
-          <img src="/src/assets/images/star.svg" alt="Star" />
+          <img src="/images/star.svg" alt="Star" />
         </div>
 
         <nav className="burger-menu__nav">
@@ -90,7 +90,7 @@ const Header = ({ isMain = false }) => {
         <div className="burger-menu__settings">
           <span className="burger-menu__settings-text">Настройки</span>
           <div className="burger-menu__settings-icon">
-            <img src="/src/assets/images/settings.svg" alt="Settings" />
+            <img src="/images/settings.svg" alt="Settings" />
           </div>
         </div>
 

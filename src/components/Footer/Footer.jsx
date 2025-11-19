@@ -12,7 +12,7 @@ const Footer = () => {
         </nav>
 
         <div className="footer__star">
-          <img src="/src/assets/images/star.png" alt="Star" />
+          <img src="/images/star.png" alt="Star" />
         </div>
       </div>
     </footer>

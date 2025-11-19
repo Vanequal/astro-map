@@ -3,7 +3,7 @@
 /* HERO SECTION */
 .hero {
   min-height: 100vh;
-  background-image: url('./assets/images/main-bg.png');
+  background-image: url('/images/main-bg.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -181,7 +181,7 @@
 
 /* ABOUT SECTION */
 .about-section {
-  background-image: url('./assets/images/main-2-bg.png');
+  background-image: url('./images/main-2-bg.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -398,7 +398,7 @@
 
 /* SUBSCRIPTION SECTION */
 .subscription-section {
-  background-image: url('./assets/images/main-bg-5.png');
+  background-image: url('/images/main-bg-5.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -618,7 +618,7 @@
 
 /* ASTROLOGER SECTION */
 .astrologer-section {
-  background-image: url('./assets/images/main-bg-7.png');
+  background-image: url('/images/main-bg-7.png');
   background-size: cover;
   background-position: center;
   position: relative;
