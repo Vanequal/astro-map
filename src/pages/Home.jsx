@@ -154,7 +154,7 @@ const Home = () => {
 
             <div className="about-section__card">
               <div className="about-section__card-icon">
-                <img src="/images/love-card.svg" alt="Love" />
+                <img src="/images/life-card.svg" alt="Love" />
               </div>
               <h3 className="about-section__card-title heading">Отношения и любовь</h3>
               <p className="about-section__card-text text">
@@ -174,7 +174,7 @@ const Home = () => {
 
             <div className="about-section__card">
               <div className="about-section__card-icon">
-                <img src="/images/life-card.svg" alt="Life" />
+                <img src="/images/love-card.svg" alt="Life" />
               </div>
               <h3 className="about-section__card-title heading">Жизненный путь</h3>
               <p className="about-section__card-text text">
