@@ -3,7 +3,6 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import ModalRegistration from '../components/Modal/ModalRegistration';
 import ModalSubscription from '../components/Modal/ModalSubscription';
-import astroCircle from '../assetsimages/astrologic-circle.png';
 import '../Home.css';
 
 const Home = () => {
@@ -138,7 +137,7 @@ const Home = () => {
               </p>
             </div>
             <div className="about-section__image">
-              <img src={astroCircle} alt="Astrologic Circle" />;
+              <img src="/images/astrologic-circle.png" alt="Astrologic Circle" />;
             </div>
           </div>
 
