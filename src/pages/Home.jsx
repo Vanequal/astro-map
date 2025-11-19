@@ -3,7 +3,7 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import ModalRegistration from '../components/Modal/ModalRegistration';
 import ModalSubscription from '../components/Modal/ModalSubscription';
-import astroCircle from '../assets/images/astrologic-circle.png';
+import astroCircle from '../assetsimages/astrologic-circle.png';
 import '../Home.css';
 
 const Home = () => {
@@ -80,7 +80,7 @@ const Home = () => {
       <section className="form-section">
         <div className="form-section__container container">
           <div className="form-section__star">
-            <img src="//images/star.svg" alt="Star" />
+            <img src="/images/star.svg" alt="Star" />
           </div>
 
           <h2 className="form-section__title heading">
@@ -145,7 +145,7 @@ const Home = () => {
           <div className="about-section__cards">
             <div className="about-section__card">
               <div className="about-section__card-icon">
-                <img src="//images/sun-card.svg" alt="Work" />
+                <img src="/images/sun-card.svg" alt="Work" />
               </div>
               <h3 className="about-section__card-title heading">Работа и доход</h3>
               <p className="about-section__card-text text">
@@ -155,7 +155,7 @@ const Home = () => {
 
             <div className="about-section__card">
               <div className="about-section__card-icon">
-                <img src="//images/love-card.svg" alt="Love" />
+                <img src="/images/love-card.svg" alt="Love" />
               </div>
               <h3 className="about-section__card-title heading">Отношения и любовь</h3>
               <p className="about-section__card-text text">
@@ -165,7 +165,7 @@ const Home = () => {
 
             <div className="about-section__card">
               <div className="about-section__card-icon">
-                <img src="//images/health-card.svg" alt="Health" />
+                <img src="/images/health-card.svg" alt="Health" />
               </div>
               <h3 className="about-section__card-title heading">Здоровье и энергия</h3>
               <p className="about-section__card-text text">
@@ -175,7 +175,7 @@ const Home = () => {
 
             <div className="about-section__card">
               <div className="about-section__card-icon">
-                <img src="//images/life-card.svg" alt="Life" />
+                <img src="/images/life-card.svg" alt="Life" />
               </div>
               <h3 className="about-section__card-title heading">Жизненный путь</h3>
               <p className="about-section__card-text text">
@@ -186,7 +186,7 @@ const Home = () => {
 
           <div className="about-section__bottom">
             <div className="about-section__star">
-              <img src="//images/star.svg" alt="Star" />
+              <img src="/images/star.svg" alt="Star" />
             </div>
             <p className="about-section__description text">
               Натальная карта, или космограмма, показывает, где находились звезды и планеты в тот самый момент и в том месте, где вы появились на свет. Слово «натальная» происходит от латинского natalis, что значит «рождение». Считалось, что именно так должен видеть небо новорожденный — уникальный звездный портрет каждого из нас.
@@ -211,31 +211,31 @@ const Home = () => {
                 <div className="question-section__options">
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Журналист</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Врач</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Преподаватель</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Менеджер</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Астролог</span>
                   </div>
@@ -243,7 +243,7 @@ const Home = () => {
               </div>
 
               <div className="question-section__right">
-                <img src="//images/profesional.png" alt="Professional" />
+                <img src="/images/profesional.png" alt="Professional" />
               </div>
             </div>
           </div>
@@ -259,25 +259,25 @@ const Home = () => {
                 <div className="question-section__options">
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Активный</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Творческий</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Мечтательный</span>
                   </div>
                   <div className="question-section__option">
                     <div className="question-section__option-icon">
-                      <img src="//images/star.svg" alt="Star" />
+                      <img src="/images/star.svg" alt="Star" />
                     </div>
                     <span className="question-section__option-text">Прагматичный</span>
                   </div>
@@ -285,7 +285,7 @@ const Home = () => {
               </div>
 
               <div className="question-section__right">
-                <img src="//images/partner.png" alt="Partner" />
+                <img src="/images/partner.png" alt="Partner" />
               </div>
             </div>
           </div>
@@ -307,7 +307,7 @@ const Home = () => {
           </p>
 
           <div className="subscription-section__star">
-            <img src="//images/star.png" alt="Star" />
+            <img src="/images/star.png" alt="Star" />
           </div>
 
           <h3 className="subscription-section__title heading">Что даёт подписка?</h3>
@@ -391,18 +391,18 @@ const Home = () => {
 
           <div className="course-section__program">
             <div className="course-section__program-star">
-              <img src="//images/star.png" alt="Star" />
+              <img src="/images/star.png" alt="Star" />
             </div>
             <span className="course-section__program-text">Программа курса</span>
             <div className="course-section__program-star">
-              <img src="//images/star.png" alt="Star" />
+              <img src="/images/star.png" alt="Star" />
             </div>
           </div>
 
           <div className="course-section__modules">
             <div className="course-section__module">
               <div className="course-section__module-icon">
-                <img src="//images/module-1.svg" alt="Module 1" />
+                <img src="/images/module-1.svg" alt="Module 1" />
               </div>
               <h4 className="course-section__module-title heading">
                 Модуль 1.<br />
@@ -416,7 +416,7 @@ const Home = () => {
 
             <div className="course-section__module">
               <div className="course-section__module-icon">
-                <img src="//images/module-2.svg" alt="Module 2" />
+                <img src="/images/module-2.svg" alt="Module 2" />
               </div>
               <h4 className="course-section__module-title heading">
                 Модуль 2.<br />
@@ -430,7 +430,7 @@ const Home = () => {
 
             <div className="course-section__module">
               <div className="course-section__module-icon">
-                <img src="//images/module-3.svg" alt="Module 3" />
+                <img src="/images/module-3.svg" alt="Module 3" />
               </div>
               <h4 className="course-section__module-title heading">
                 Модуль 3.<br />
@@ -443,7 +443,7 @@ const Home = () => {
 
             <div className="course-section__module">
               <div className="course-section__module-icon">
-                <img src="//images/module-4.svg" alt="Module 4" />
+                <img src="/images/module-4.svg" alt="Module 4" />
               </div>
               <h4 className="course-section__module-title heading">
                 Модуль 4.<br />
@@ -457,7 +457,7 @@ const Home = () => {
 
             <div className="course-section__module">
               <div className="course-section__module-icon">
-                <img src="//images/module-5.svg" alt="Module 5" />
+                <img src="/images/module-5.svg" alt="Module 5" />
               </div>
               <h4 className="course-section__module-title heading">
                 Модуль 5.<br />
@@ -471,7 +471,7 @@ const Home = () => {
 
             <div className="course-section__module">
               <div className="course-section__module-icon">
-                <img src="//images/module-6.svg" alt="Module 6" />
+                <img src="/images/module-6.svg" alt="Module 6" />
               </div>
               <h4 className="course-section__module-title heading">
                 Модуль 6.<br />
@@ -551,7 +551,7 @@ const Home = () => {
             </div>
 
             <div className="about-us-section__star">
-              <img src="//images/star.png" alt="Star" />
+              <img src="/images/star.png" alt="Star" />
             </div>
 
             <div className="about-us-section__feature">
@@ -562,7 +562,7 @@ const Home = () => {
             </div>
 
             <div className="about-us-section__star">
-              <img src="//images/star.png" alt="Star" />
+              <img src="/images/star.png" alt="Star" />
             </div>
 
             <div className="about-us-section__feature">
@@ -600,7 +600,7 @@ const Home = () => {
                 >
                   <div className="faq-section__question-left">
                     <div className="faq-section__question-icon">
-                      <img src="//images/star.png" alt="Star" />
+                      <img src="/images/star.png" alt="Star" />
                     </div>
                     <h3 className="faq-section__question-text heading">{item.question}</h3>
                   </div>
@@ -641,7 +641,7 @@ const Home = () => {
           </div>
 
           <div className="cta-section__image">
-            <img src="//images/cta.png" alt="CTA" />
+            <img src="/images/cta.png" alt="CTA" />
           </div>
         </div>
       </section>
