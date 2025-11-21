@@ -1,3 +1,5 @@
+import './Modal.css';
+
 const ModalRegistration = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 

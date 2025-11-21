@@ -1,3 +1,5 @@
+import './Modal.css';
+
 const ModalSubscription = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
@@ -19,32 +21,23 @@ const ModalSubscription = ({ isOpen, onClose }) => {
 
           <div className="modal__list">
             <div className="modal__list-item">
-              <img src="/src/assets/images/star.png" alt="Star" className="modal__list-icon" />
+              <img src="/images/star.png" alt="Star" className="modal__list-icon" />
               <p className="modal__list-text">
                 Доступ к обучению самостоятельной полной расшифровке Натальной карты на все случаи жизни!
               </p>
             </div>
             <div className="modal__list-item">
-              <img src="/src/assets/images/star.png" alt="Star" className="modal__list-icon" />
+              <img src="/images/star.png" alt="Star" className="modal__list-icon" />
               <p className="modal__list-text">
                 Создавать и сохранять неограниченное количество натальных карт: для себя, родных и близких!
               </p>
             </div>
             <div className="modal__list-item">
-              <img src="/src/assets/images/star.png" alt="Star" className="modal__list-icon" />
+              <img src="/images/star.png" alt="Star" className="modal__list-icon" />
               <p className="modal__list-text">
                 Доступ к эксклюзивным материалам!
               </p>
             </div>
-          </div>
-
-          <div className="modal__input">
-            <label className="modal__input-label">Email</label>
-            <input 
-              type="email" 
-              className="modal__input-field" 
-              placeholder="astro@map.com"
-            />
           </div>
 
           <button className="modal__btn">Оформить подписку за рубль(ей)</button>
@@ -68,7 +61,7 @@ const ModalSubscription = ({ isOpen, onClose }) => {
         </div>
 
         <img 
-          src="/src/assets/images/modal-2.png" 
+          src="/images/modal-2.png" 
           alt="Subscription" 
           className="modal__image"
         />

@@ -3,7 +3,7 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import ModalRegistration from '../components/Modal/ModalRegistration';
 import ModalSubscription from '../components/Modal/ModalSubscription';
-import '../Home.css';
+import './Home.css';
 
 const Home = () => {
   const [isRegistrationOpen, setIsRegistrationOpen] = useState(false);
@@ -63,6 +63,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="hero">
+        <div className="hero__background"></div>
         <div className="hero__container container">
           <h1 className="hero__title">
             <span className="hero__title-gradient">ASTRO</span>
@@ -111,9 +112,8 @@ const Home = () => {
                 <div className="form-section__input-placeholder">Введите или выберите</div>
               </div>
             </div>
-
-
           </div>
+          
           <button className="form-section__btn">
             Построить<br />
             натальную карту
@@ -123,6 +123,7 @@ const Home = () => {
 
       {/* About Section */}
       <section className="about-section" id="natal-card">
+        <div className="about-section__background"></div>
         <div className="about-section__container container">
           <div className="about-section__top">
             <div className="about-section__content">
@@ -137,7 +138,7 @@ const Home = () => {
               </p>
             </div>
             <div className="about-section__image">
-              <img src="/images/astrologic-circle.png" alt="Astrologic Circle" />;
+              <img src="/images/astrologic-circle.png" alt="Astrologic Circle" />
             </div>
           </div>
 
@@ -293,6 +294,7 @@ const Home = () => {
 
       {/* Subscription Section */}
       <section className="subscription-section">
+        <div className="subscription-section__background"></div>
         <div className="subscription-section__container container">
           <h2 className="subscription-section__title heading">
             Построить карту легко.<br />
@@ -487,6 +489,7 @@ const Home = () => {
 
       {/* Astrologer Section */}
       <section className="astrologer-section">
+        <div className="astrologer-section__background"></div>
         <div className="astrologer-section__container container">
           <h2 className="astrologer-section__title heading">Ваш личный астролог 24/7</h2>
 

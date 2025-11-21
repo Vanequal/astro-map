@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Header.css';
 
 const Header = ({ isMain = false }) => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
@@ -12,16 +13,18 @@ const Header = ({ isMain = false }) => {
       <header className={`header ${isMain ? 'header--main' : 'header--inner'}`}>
         <div className="header__container">
           <div className="header__logo">
-            <img src="/images/logo.svg" alt="AstroMap Logo" />
+            <a href="/">
+              <img src="/images/logo.svg" alt="AstroMap Logo" />
+            </a>
           </div>
 
           {isMain ? (
             <>
               <nav className="header__nav">
-                <a href="#natal-card" className="header__nav-link">
+                <a href="/natal-chart" className="header__nav-link">
                   Ваша<br />натальная карта
                 </a>
-                <a href="#decoding" className="header__nav-link">
+                <a href="/analysis" className="header__nav-link">
                   Расшифровка
                 </a>
                 <a href="#about" className="header__nav-link">
@@ -29,7 +32,7 @@ const Header = ({ isMain = false }) => {
                 </a>
               </nav>
 
-              <button className="header__btn">Личный кабинет</button>
+              <a href="/profile" className="header__btn">Личный кабинет</a>
             </>
           ) : (
             <button className="header__burger" onClick={toggleBurger}>
@@ -54,7 +57,7 @@ const Header = ({ isMain = false }) => {
           <img src="/images/avatar-profile.png" alt="Avatar" />
         </div>
 
-        <button className="burger-menu__profile-btn">Личный кабинет</button>
+        <a href="/profile" className="burger-menu__profile-btn">Личный кабинет</a>
 
         <div className="burger-menu__star">
           <img src="/images/star.svg" alt="Star" />
@@ -68,31 +71,31 @@ const Header = ({ isMain = false }) => {
             </svg>
           </div>
           <div className="burger-menu__nav-item">
-            <a href="/natal-card" className="burger-menu__nav-link">Натальная карта</a>
+            <a href="/natal-chart" className="burger-menu__nav-link">Натальная карта</a>
             <svg className="burger-menu__arrow" viewBox="0 0 20 20" fill="none">
               <path d="M7 4L13 10L7 16" stroke="rgba(117, 131, 149, 1)" strokeWidth="2"/>
             </svg>
           </div>
           <div className="burger-menu__nav-item">
-            <a href="/education" className="burger-menu__nav-link">Обучение</a>
+            <a href="/learning" className="burger-menu__nav-link">Обучение</a>
             <svg className="burger-menu__arrow" viewBox="0 0 20 20" fill="none">
               <path d="M7 4L13 10L7 16" stroke="rgba(117, 131, 149, 1)" strokeWidth="2"/>
             </svg>
           </div>
           <div className="burger-menu__nav-item">
-            <a href="/astrologer" className="burger-menu__nav-link">Разборы от Астролога</a>
+            <a href="/analysis" className="burger-menu__nav-link">Разборы от Астролога</a>
             <svg className="burger-menu__arrow" viewBox="0 0 20 20" fill="none">
               <path d="M7 4L13 10L7 16" stroke="rgba(117, 131, 149, 1)" strokeWidth="2"/>
             </svg>
           </div>
         </nav>
 
-        <div className="burger-menu__settings">
+        <a href="/settings" className="burger-menu__settings">
           <span className="burger-menu__settings-text">Настройки</span>
           <div className="burger-menu__settings-icon">
             <img src="/images/settings.svg" alt="Settings" />
           </div>
-        </div>
+        </a>
 
         <button className="burger-menu__login-btn">Войти</button>
       </div>
